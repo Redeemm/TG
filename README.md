@@ -13,3 +13,6 @@ https://api.telegram.org/bot2016087363:AAHDyBO8a-r9Av4jt4_X7DTVLu-nEeMWnFc/getWe
 
 {"ok":true,"result":{"url":"https://www.google.com","has_custom_certificate":false,"pending_update_count":0,"max_connections":40,"ip_address":"142.251.36.4"}}
 
+Good example here :
+
+https://javarush.ru/groups/posts/3493-telegram-bot--napominalka-cherez-webhook-na-java-ili-skazhi-net-google-kalendarju
