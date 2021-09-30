@@ -4,7 +4,7 @@
 
     https://api.telegram.org/bot2016087363:AAHDyBO8a-r9Av4jt4_X7DTVLu-nEeMWnFc/setWebhook?url=https://1025-188-163-102-141.ngrok.io
 
-{"ok":true,"result":true,"description":"Webhook was set"}
+    {"ok":true,"result":true,"description":"Webhook was set"}
 
 ## Get Webhook URL for the bot
 
@@ -19,7 +19,7 @@
 ## How to deploy via google apps engine console
 - Open console and run command to get your url
 
-    $ gcloud app browse
+    gcloud app browse
 
 - Put this URL to application.properties as telegrambot.webHookPath
 
@@ -29,8 +29,8 @@
 
 - Open console and run next commands to deploy
 
-    $ git clone https://github.com/0velychk0/webhookTelegramBot.git
+    git clone https://github.com/0velychk0/webhookTelegramBot.git
 
-    $ cd webhookTelegramBot
+    cd webhookTelegramBot
 
-    $ mvn -DskipTests package appengine:deploy
+    mvn -DskipTests package appengine:deploy
