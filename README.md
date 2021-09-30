@@ -17,3 +17,18 @@ https://api.telegram.org/bot2016087363:AAHDyBO8a-r9Av4jt4_X7DTVLu-nEeMWnFc/getWe
 Good example here :
 
 https://javarush.ru/groups/posts/3493-telegram-bot--napominalka-cherez-webhook-na-java-ili-skazhi-net-google-kalendarju
+
+## How to deploy via google apps engine console
+- Open console and run command to get your url
+
+    $ gcloud app browse
+
+- Put this URL to application.properties as telegrambot.webHookPath
+
+- Open console and run next commands to deploy
+
+$ git clone https://github.com/0velychk0/webhookTelegramBot.git
+
+$ cd webhookTelegramBot
+
+$ mvn -DskipTests package appengine:deploy
